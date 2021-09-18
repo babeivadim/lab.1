@@ -1,0 +1,16 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int num;
+        System.out.printf("Introduceti un numar intreg: ");
+        num = input.nextInt();
+        if(num % 2 == 0)
+            System.out.println("Numarul "+num+ " este par.");
+        else
+            System.out.println("Numarul "+num+" este impar");
+
+    }
+}

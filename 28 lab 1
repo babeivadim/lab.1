@@ -1,0 +1,16 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int r;
+        double d;
+        double pi=3.14159;
+        System.out.printf("Enter the radius: ");
+        r = input.nextInt();
+        System.out.println("Enter th diameter: ");
+
+
+    }
+}

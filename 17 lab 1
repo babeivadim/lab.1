@@ -1,0 +1,38 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a;
+        int b;
+        int c;
+        int suma;
+        int media;
+        int produs;
+        System.out.printf("Introduceti primul numar intreg: ");
+        a = input.nextInt();
+        System.out.print("Introduceti al doilea numar intreg: ");
+        b= input.nextInt();
+        System.out.printf("Introduceti al treilea numar intreg: ");
+        c = input.nextInt();
+        suma = a+b+c;
+        System.out.println("Suma = "+ suma);
+        media = (a+b+c)/3;
+        System.out.println("Media = "+ media);
+        produs = a*b*c;
+        System.out.println("Produs = "+ produs);
+        if(a>b && a>c)
+            System.out.println("Numarul mai mare este = "+ a);
+        if(b>a && b>c)
+            System.out.println("Numarul mai mare este = "+ b);
+        if(c>a && c>b)
+            System.out.println("Numarul mai mare este = "+ c);
+        if(a<b && a<c)
+            System.out.println("Numarul mai mic este = "+ a);
+        if(b<a && b<c)
+            System.out.println("Numarul mai mic este = "+ b);
+        if(c<a && c<b)
+            System.out.println("Numarul mai mic este = "+ c);
+    }
+}

@@ -1,0 +1,27 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        int a;
+        int b;
+        int suma;
+        Scanner input = new Scanner(System.in);
+        System.out.printf("Introduceti primul numar intreg: ");
+        a = input.nextInt();
+System.out.print("Introduceti al doilea numar intreg: ");
+b= input.nextInt();
+if(a==b)
+    System.out.printf("%d != %d%n", a, b);
+if(a!=b)
+    System.out.printf("%d != %d%n", a, b);
+if(a<b)
+    System.out.printf("%d < %d%n", a, b);
+if(a>b)
+    System.out.printf("%d > %d%n", a, b);
+if(a<=b)
+    System.out.printf("%d <= %d%n", a, b);
+if(a>=b)
+    System.out.printf("%d >= %d%n", a, b);
+    }
+}

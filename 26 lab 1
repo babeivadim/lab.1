@@ -1,0 +1,19 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a;
+        int b;
+        System.out.printf("Introduceti a: ");
+        a = input.nextInt();
+        System.out.printf("Introduceti b: ");
+        b = input.nextInt();
+        if(a%b==0)
+            System.out.println("Numarul "+a+" este multiplu.");
+        else
+            System.out.println("Numarul "+a+" nu este multiplu.");
+
+    }
+}

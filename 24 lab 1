@@ -1,0 +1,43 @@
+package com.company;
+import java.util.Scanner;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a;
+        int b;
+        int c;
+        int d;
+        int e;
+        System.out.printf("Introduceti primul numar intreg: ");
+        a = input.nextInt();
+        System.out.print("Introduceti al doilea numar intreg: ");
+        b= input.nextInt();
+        System.out.printf("Introduceti al treilea numar intreg: ");
+        c = input.nextInt();
+        System.out.printf("Introduceti al patrulea numar intreg: ");
+        d = input.nextInt();
+        System.out.print("Introduceti al cinclea numar intreg: ");
+        e= input.nextInt();
+        if(a>b && a>c && a>d && a>e)
+            System.out.println("Numarul mai mare este = "+ a);
+        if(b>a && b>c && b>d && b>e)
+            System.out.println("Numarul mai mare este = "+ b);
+        if(c>a && c>b && c>d && c>e)
+            System.out.println("Numarul mai mare este = "+ c);
+        if(d>a && d>b && d>c && d>e)
+            System.out.println("Numarul mai mare este = "+ d);
+        if(e>a && e>b && e>c && e>d)
+            System.out.println("Numarul mai mare este = "+ e);
+        if(a<b && a<c && a<d && a<e)
+            System.out.println("Numarul mai mic este = "+ a);
+        if(b<a && b<c && b<d && b<e)
+            System.out.println("Numarul mai mic este = "+ b);
+        if(c<a && c<b && c<d && c<e)
+            System.out.println("Numarul mai mic este = "+ c);
+        if(d<a && d<b && d<c && d<e)
+            System.out.println("Numarul mai mic este = "+ d);
+        if(e<a && e<b && e<c && e<d)
+            System.out.println("Numarul mai mic este = "+ e);
+    }
+}
